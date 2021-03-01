@@ -1,0 +1,175 @@
+@font-face {
+	src: url(starjedi/Starjedi.ttf);
+	font-family: StarWars;
+}
+
+@font-face {
+	src: url(BTTF.ttf);
+	font-family: BackToTheFuture;
+}
+
+* {
+	font-family: 'Architects Daughter', cursive;
+}
+
+body {
+	background-image: url(politicamente-correcto.jpg) ;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+div {
+	color: #c9d4cf;
+	padding: 15px;
+}
+
+.main_title h1 {
+	text-align: center;	
+	font-family: StarWars;
+	color: #d6d308;
+	text-shadow:  1px 1px 2px white;
+
+}
+
+.links {
+	display: flex;
+	background: linear-gradient(90deg, rgba(222,216,14,1) 0%, rgba(109,110,97,0.3449754901960784) 41%, rgba(0,0,0,1) 100%);
+	font-size: 25px;
+	padding: 10px;	
+	word-spacing: 10em;
+	flex-direction: row-reverse;
+	margin: auto;
+}
+
+.links a {
+	margin: 10px;
+	font-family: BackToTheFuture;
+	font-size: 15px;
+}
+
+.links a:hover {
+	background: -webkit-linear-gradient(#f16107, #fbf005);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;;}
+
+
+.introduction {
+	border: 10px solid #878787;
+	background-color: #ada7a7;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #e7f40c;
+	color: black;
+	font-size: 20px;
+}
+
+.weekly_book_title{ 
+	padding: 15px;
+ }
+.weekly_book {
+	display: flex;
+}
+
+
+.weekly_book img {
+	width: 500px;
+	height: 550px;
+	border: 10px solid #878787;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #e7f40c;
+}
+
+.weekly_book_description {
+	margin-left: 10px;
+	background-color: #e9eb00 transparent;
+	color: white;
+	font-size: 17px;
+
+}
+
+.weekly_book_description h3 {
+	padding: 10px;
+}
+
+.weekly_book_description ul {
+	margin-left: 20px;
+}
+
+.weekly_movie_title{ 
+	padding: 15px;
+ }
+
+.weekly_movie {
+	display: flex;
+}
+
+
+.weekly_movie img {
+	width: 500px;
+	height: 500px;
+	border: 10px solid #878787;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #e7f40c;
+}
+
+.weekly_movie_description {
+	margin-left: 10px;
+	background-color: #e9eb00 transparent;
+	color: white;
+	font-size: 17px;
+
+}
+
+.weekly_movie_description h3 {
+	padding: 10px;
+}
+
+.weekly_movie_description ul {
+	margin-left: 20px;	
+}
+
+
+.weekly_tv_show_title{ 
+	padding: 15px;
+ }
+ 
+.weekly_tv_show {
+	display: flex;
+}
+
+
+.weekly_tv_show img {
+	width: 720px;
+	height: 450px;
+	border: 10px solid #878787;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #e7f40c;
+}
+
+.weekly_tv_show_description {
+	margin-left: 10px;
+	background-color: #e9eb00 transparent;
+	color: white;
+	font-size: 17px;
+
+}
+
+.weekly_tv_show_description h3 {
+	padding: 10px;
+}
+
+.weekly_tv_show_description ul {
+	margin-left: 20px;	
+}
+
+footer {
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(109,110,97,0.3449754901960784) 41%, rgba(222,216,14,1) 100%);
+	font-size: 25px;
+	padding: 10px;	
+	flex-direction: column;
+	text-align: right;
+	margin-top: auto;
+	color: black; 
+}

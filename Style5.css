@@ -1,0 +1,72 @@
+@font-face {
+	src: url(starjedi/Starjedi.ttf);
+	font-family: StarWars;
+}
+
+@font-face {
+	src: url(BTTF.ttf);
+	font-family: BackToTheFuture;
+}
+
+
+* {
+	font-family: 'Architects Daughter', cursive;
+}
+
+body {
+	background-image: url(politicamente-correcto.jpg) ;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+
+.links {
+	display: flex;
+	background: linear-gradient(90deg, rgba(222,216,14,1) 0%, rgba(109,110,97,0.3449754901960784) 41%, rgba(0,0,0,1) 100%);
+	font-size: 25px;
+	padding: 10px;	
+	word-spacing: 10em;
+	flex-direction: row-reverse;
+	margin: auto;
+}
+
+.links a {
+	margin: 10px;
+	font-family: BackToTheFuture;
+	font-size: 15px;
+}
+
+.links a:hover {
+	background: -webkit-linear-gradient(#f16107, #fbf005);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;;}
+
+.gif {
+	display: grid;
+	justify-content: center;
+	width: 100%;
+}
+
+.gif img {
+	padding-top: 60px;
+	width: 800px;
+	height: 440px;
+}
+
+
+
+
+footer {
+	position: absolute;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(109,110,97,0.3449754901960784) 41%, rgba(222,216,14,1) 100%);
+	font-size: 25px;
+	padding: 10px;	
+	flex-direction: column;
+	text-align: right;
+	margin-top: auto;
+	color: black; 
+}
+

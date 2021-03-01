@@ -1,0 +1,150 @@
+@font-face {
+	src: url(starjedi/Starjedi.ttf);
+	font-family: StarWars;
+}
+
+@font-face {
+	src: url(BTTF.ttf);
+	font-family: BackToTheFuture;
+}
+
+
+
+* {
+	font-family: 'Architects Daughter', cursive;
+}
+
+body {
+	background-image: url(politicamente-correcto.jpg) ;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+div {
+	color: #c9d4cf;
+	padding: 15px;
+}
+
+
+.links {
+	display: flex;
+	background: linear-gradient(90deg, rgba(222,216,14,1) 0%, rgba(109,110,97,0.3449754901960784) 41%, rgba(0,0,0,1) 100%);
+	font-size: 25px;
+	padding: 10px;	
+	word-spacing: 10em;
+	flex-direction: row-reverse;
+	margin: auto;
+}
+
+.links a {
+	margin: 10px;
+	font-family: BackToTheFuture;
+	font-size: 15px;
+}
+
+.links a:hover {
+	background: -webkit-linear-gradient(#f16107, #fbf005);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;;}
+
+
+.contenido {
+	display: flex;
+	min-width: 10px;
+}
+
+.mapa img {
+	width: 600px;
+	height: 440px;
+	min-width: 0;
+}
+
+.mapa {
+	display: flex;	
+	height: 440px;		
+	min-width: 	500px;
+}
+
+.direccion h2 {
+	margin-bottom: 20px;
+}
+
+.direccion {
+	justify-content: flex-start;	
+	flex-grow: 	10;
+}
+
+.formulario  {
+	font-size: 20px;
+}
+
+::placeholder  {
+	color: black;
+}
+
+
+.Name_Input {
+	width: 100%;
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(170,170,170,0.41220238095238093) 50%, rgba(90,58,180,1) 100%);
+	color: 	red;
+}
+
+		
+.Name_Input:focus { 
+	background-color: #05a3cc;
+ }
+
+.Email_Section {
+	width: 100%;
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(170,170,170,0.41220238095238093) 50%, rgba(90,58,180,1) 100%);
+}
+
+
+.Email_Section:focus { 
+	background-color: #05a3cc;
+ }
+
+
+.Subject_Input {
+	width: 100%;
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(170,170,170,0.41220238095238093) 50%, rgba(90,58,180,1) 100%);
+}
+
+.Subject_Input:focus { 
+	background-color: #05a3cc;
+ }
+
+.Message_Section {
+	width: 100%;
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(170,170,170,0.41220238095238093) 50%, rgba(90,58,180,1) 100%);
+	
+}
+
+
+.Message_Section:focus { 
+	background-color: #05a3cc;
+ }
+
+.submitSection {
+  	font-size: 30px;
+  	text-align: right;
+}
+
+.Submit_Section:hover {
+	background: linear-gradient(0deg, rgba(238,225,22,0.76234243697479) 0%, rgba(231,231,223,0.9304096638655462) 100%);
+	border-radius: 5px;
+}
+
+
+footer {
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(109,110,97,0.3449754901960784) 41%, rgba(222,216,14,1) 100%);
+	font-size: 25px;
+	padding: 10px;	
+	flex-direction: column;
+	text-align: right;
+	margin-top: auto;
+	color: black; 
+}
