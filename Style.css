@@ -31,6 +31,79 @@ div {
 
 }
 
+.nav_responsive-ul {
+	display: none;	
+}
+
+.nav_ul {
+	display: flex;
+	background: linear-gradient(90deg, rgba(222,216,14,1) 0%, rgba(109,110,97,0.3449754901960784) 41%, rgba(0,0,0,1) 100%);
+	font-size: 25px;
+	padding: 10px;	
+	word-spacing: 10em;
+	flex-direction: row-reverse;
+	margin: auto;	
+}
+
+
+
+.nav_responsive-button-container {
+	position: absolute;
+	width: 100%;
+	font-size: 25px;
+	background: linear-gradient(90deg, rgba(222,216,14,1) 0%, rgba(109,110,97,0.3449754901960784) 41%, rgba(0,0,0,1) 100%);
+	margin-top: -64px;
+	z-index: 100;
+}
+
+.nav_responsive-button {
+	padding: 6px;
+	text-align: right;
+	width: 100%;
+}
+
+@media only screen and (max-width:620px) {
+	.nav_ul {
+		display: none;	
+	}
+	.nav_responsive-ul {
+		display: block;
+		position: absolute;	
+		width: 100%;
+		margin-top: 37px;
+		padding-top: 27px;
+		height: 37px;
+	}
+
+	.nav_li-container {
+	position: relative;
+	top: -1000px;
+	height: calc(100vh - 64px);
+	background: linear-gradient(90deg, rgba(222,216,14,1) 0%, rgba(109,110,97,0.3449754901960784) 41%, rgba(0,0,0,1) 100%);
+	transition: all 1s;
+	z-index: 1;
+	}
+
+	.nav {
+		height: 37px;
+		width: 100%;
+	}
+
+	.nav_responsive-li {
+		width: 100%;
+		padding: 10px;
+	}
+
+	.nav_responsive-li i {
+		color: black;
+	}	
+
+	.nav_responsive-ul:hover > .nav_li-container {
+		top: 0;
+	}
+}
+
+}
 .links {
 	display: flex;
 	background: linear-gradient(90deg, rgba(222,216,14,1) 0%, rgba(109,110,97,0.3449754901960784) 41%, rgba(0,0,0,1) 100%);
@@ -38,13 +111,14 @@ div {
 	padding: 10px;	
 	word-spacing: 10em;
 	flex-direction: row-reverse;
-	margin: auto;
+	margin: auto;	
 }
 
 .links a {
 	margin: 10px;
 	font-family: BackToTheFuture;
 	font-size: 15px;
+	text-decoration: none;		
 }
 
 .links a:hover {
